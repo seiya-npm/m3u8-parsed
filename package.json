@@ -1,0 +1,27 @@
+{
+    "name": "m3u8-parsed",
+    "version": "1.0.1",
+    "description": "Quick m3u8-parser module usage",
+    "main": "main.js",
+    "dependencies": {
+        "m3u8-parser": "4.x"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/seiya-npm/m3u8-parsed.git"
+    },
+    "keywords": [
+        "m3u8",
+        "playlist",
+        "hls"
+    ],
+    "author": "Seiya Loveless",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/seiya-npm/m3u8-parsed/issues"
+    },
+    "homepage": "https://github.com/seiya-npm/m3u8-parsed#readme"
+}

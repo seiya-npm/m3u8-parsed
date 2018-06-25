@@ -1,0 +1,28 @@
+#EXTM3U
+#EXT-X-VERSION:4
+
+# AUDIO groups
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="aac_UND_2_128",DEFAULT=YES,URI="http://demo.net/get/QualityLevels(128000)/Manifest(aac_UND_2_128)"
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(800000)/Manifest(video)
+#EXT-X-STREAM-INF:BANDWIDTH=1153000,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(1153000)/Manifest(video)
+#EXT-X-STREAM-INF:BANDWIDTH=1648000,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(1648000)/Manifest(video)
+#EXT-X-STREAM-INF:BANDWIDTH=2391000,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(2391000)/Manifest(video)
+#EXT-X-STREAM-INF:BANDWIDTH=2964000,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(2964000)/Manifest(video)
+#EXT-X-STREAM-INF:BANDWIDTH=4825000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="audio"
+http://demo.net/get/QualityLevels(4825000)/Manifest(video)
+
+
+# keyframes
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.64001e",URI="http://demo.net/get/QualityLevels(800000)/Manifest(video,type=keyframes)"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=1153000,RESOLUTION=640x360,CODECS="avc1.64001e",URI="http://demo.net/get/QualityLevels(1153000)/Manifest(video,type=keyframes)"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=1648000,RESOLUTION=960x540,CODECS="avc1.64001f",URI="http://demo.net/get/QualityLevels(1648000)/Manifest(video,type=keyframes)"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=2391000,RESOLUTION=960x540,CODECS="avc1.64001f",URI="http://demo.net/get/QualityLevels(2391000)/Manifest(video,type=keyframes)"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=2964000,RESOLUTION=1280x720,CODECS="avc1.64001f",URI="http://demo.net/get/QualityLevels(2964000)/Manifest(video,type=keyframes)"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=4825000,RESOLUTION=1920x1080,CODECS="avc1.640028",URI="http://demo.net/get/QualityLevels(4825000)/Manifest(video,type=keyframes)"
