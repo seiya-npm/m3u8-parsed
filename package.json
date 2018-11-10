@@ -1,10 +1,10 @@
 {
     "name": "m3u8-parsed",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "description": "Quick m3u8-parser module usage",
     "main": "main.js",
     "dependencies": {
-        "m3u8-parser": "4.x"
+        "m3u8-parser": "^4.2.0"
     },
     "scripts": {
         "test": "node test.js"
