@@ -4,7 +4,7 @@
     "description": "Quick m3u8-parser module usage",
     "main": "main.js",
     "dependencies": {
-        "m3u8-parser": "^4.4.0"
+        "m3u8-parser": "^7.2.0"
     },
     "scripts": {
         "test": "node test.js"
